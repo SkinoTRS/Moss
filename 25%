@@ -1,1 +1,1 @@
-local v0=game:GetService("Players");local v1=v0.LocalPlayer;local v2=v1.Character or v1.CharacterAdded:Wait() ;local v3=v2:FindFirstChild("Head");if v3 then local v5=0;while true do if (v5==(0 + 0)) then v3.CanCollide=true;v3.CanQuery=false;v5=569 -(367 + 201) ;end if (v5==(928 -(214 + 713))) then v3.CanTouch=true;v3.CustomPhysicalProperties=PhysicalProperties.new(1 + 0 ,0.3,0.5 + 0 );break;end end end local v4=workspace:FindFirstChild("TPSSystem") and workspace.TPSSystem:FindFirstChild("TPS") ;if v4 then v4.CanCollide=true;v4.CanQuery=false;v4.CanTouch=true;end
+
